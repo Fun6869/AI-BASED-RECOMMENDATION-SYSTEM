@@ -52,3 +52,14 @@ Represents a recommended item. This class contains the item ID and the predicted
 
 **13.org.apache.mahout.cf.taste.similarity.ItemSimilarity :**
 Interface for calculating item similarity. TanimotoCoefficientSimilarity is a specific implementation of this interface, used to compute the similarity between items.
+
+**HOW TO RUN**
+
+- First run MovieDataConvert.java; code provided in MovieDataConvert is a data conversion script that reads data from a file (likely in a tab-separated format) and converts it into a comma-separated format. Specifically, it processes the input data file (u.data) and outputs a CSV file (movies.csv).
+
+- After this we will get movies.csv file which will be used for item reccomendation
+
+- Then run ItemRecommend.java which is a basic item-based collaborative filtering recommender system. The purpose of the code is to recommend items to users based on the similarity between the items themselves.
+
+**OUTPUT**
+
