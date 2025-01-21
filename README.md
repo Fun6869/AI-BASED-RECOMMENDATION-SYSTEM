@@ -63,6 +63,7 @@ Interface for calculating item similarity. TanimotoCoefficientSimilarity is a sp
 
 **OUTPUT**
 
-![Uploading Screenshot 2025-01-21 195254.png…]()
+![Screenshot 2025-01-21 195254](https://github.com/user-attachments/assets/35cca16e-8f0d-48f6-8b9e-9b71301f9cc7)
+
 
 
